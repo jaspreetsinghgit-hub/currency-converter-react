@@ -18,7 +18,7 @@ https://currency-converter-react-taupe.vercel.app/
 
 ### Home Page
 
-./src/screenshots/home.png)
+![Home](./src/assets/home.png)
 
 ---
 
