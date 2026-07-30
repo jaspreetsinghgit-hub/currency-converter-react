@@ -1,16 +1,72 @@
-# React + Vite
+# 💱 Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Currency Converter built using **React**, **Tailwind CSS**, and **Custom React Hooks**. The application fetches real-time exchange rates from a public Currency API and instantly converts one currency into another.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+Add your deployed link here
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Example:
 
-## Expanding the ESLint configuration
+https://currency-converter-react-taupe.vercel.app/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Screenshots
+
+### Home Page
+
+./src/screenshots/home.png)
+
+---
+
+## ✨ Features
+
+- Real-time currency conversion
+- Live exchange rates using Currency API
+- Swap currencies with one click
+- Reset functionality
+- Responsive user interface
+- Built using reusable React components
+- Custom Hook for API fetching
+- Fast performance using Vite
+
+---
+
+## 🛠 Technologies Used
+
+- React
+- JavaScript (ES6+)
+- Tailwind CSS
+- Vite
+- Currency API
+- React Hooks
+
+---
+
+## 📂 Project Structure
+
+src/
+
+├── components/
+
+│ └── InputBox.jsx
+
+├── hooks/
+
+│ └── useCurrencyInfo.js
+
+├── App.jsx
+
+└── main.jsx
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/currency-converter-react.git
